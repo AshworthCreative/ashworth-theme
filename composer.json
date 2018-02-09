@@ -5,7 +5,7 @@
     "require": {
         "composer/installers": "^1.5"
     },
-    "license": "gpl",
+    "license": "Apache 2.0",
     "authors": [
         {
             "name": "Luis Amador",
