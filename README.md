@@ -20,8 +20,17 @@ If you don't have a composer.json file created you will need too.
 This packages requires you to add a require dependency call composer/installer to work. The required package to paste in will be this:
 
 ```
+type": "wordpress-theme",
+
 "require": {
-        "composer/installers": "^1.5"
+        "composer/installers": "^1.5",
+        "ashworthcreative/ashworth-theme": "dev-master"
     }
+
+"extra": {
+    "installer-paths": {
+        "sites/example.com/modules/{$name}": ["vendor/package"]
+    }
+}
 
 ```
