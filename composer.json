@@ -1,0 +1,15 @@
+{
+    "name": "ashworthcreative/ashworth-theme",
+    "description": "A starter theme for the Ashworth Creative Development team",
+    "type": "project",
+    "require": {
+        "composer/installers": "^1.5"
+    },
+    "license": "gpl",
+    "authors": [
+        {
+            "name": "Luis Amador",
+            "email": "luis@ashworthcreative.com"
+        }
+    ]
+}

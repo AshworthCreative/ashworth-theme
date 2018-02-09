@@ -15,4 +15,13 @@ My ultra-minimal CSS might make me look like theme tartare but that means less s
 Getting Started
 ---------------
 
-dd
+If you don't have a composer.json file created you will need too.
+
+This packages requires you to add a require dependency call composer/installer to work. The required package to paste in will be this:
+
+```
+"require": {
+        "composer/installers": "^1.5"
+    }
+
+```
