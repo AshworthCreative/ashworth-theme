@@ -17,5 +17,14 @@
             "email": "ken@ashworthcreative.com",
             "role": "lead"
         }
-    ]
+    ],
+    "require": {
+        "composer/installers": "^1.5",
+        "ashworthcreative/ashworth-theme": "dev-master"
+    },
+    "extra": {
+        "installer-paths": {
+            "lu-theme/{$name}/": ["ashworthcreative/ashworth-theme"]
+        }
+    }
 }
