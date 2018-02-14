@@ -1,7 +1,7 @@
 {
     "name": "ashworthcreative/ashworth-theme",
     "description": "A starter theme for the Ashworth Creative Development team",
-    "type": "project",
+    "type": "wordpress-theme",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
