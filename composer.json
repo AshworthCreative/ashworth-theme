@@ -2,16 +2,12 @@
     "name": "ashworthcreative/ashworth-theme",
     "description": "A starter theme for the Ashworth Creative Development team",
     "type": "wordpress-theme",
-    "license": [
-        "OSL-3.0",
-        "AFL-3.0"
-    ],
+    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "Luis Amador",
             "email": "luis@ashworthcreative.com"
         },
-
         {
             "name": "Ken Newman",
             "email": "ken@ashworthcreative.com",
@@ -19,12 +15,6 @@
         }
     ],
     "require": {
-        "composer/installers": "^1.5",
-        "ashworthcreative/ashworth-theme": "dev-master"
-    },
-    "extra": {
-        "installer-paths": {
-            "lu-theme/{$name}/": ["ashworthcreative/ashworth-theme"]
-        }
+        "composer/installers": "^1.5"
     }
 }
