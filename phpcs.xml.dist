@@ -9,12 +9,12 @@
 	<description>A custom set of code standard rules to check for WordPress themes.</description>
 
 	<!-- Pass some flags to PHPCS:
-		 p flag: Show progress of the run.
+		 p flag: Show progress of the run. (Breaks VSCode plugin.)
 		 s flag: Show sniff codes in all reports.
 		 v flag: Print verbose output.
 		 n flag: Do not print warnings.
 	-->
-	<arg value="psvn"/>
+	<arg value="svn"/>
 
 	<!-- Only check the PHP, CSS and SCSS files. JS files are checked separately with JSCS and JSHint. -->
 	<arg name="extensions" value="php,css,scss/css"/>
